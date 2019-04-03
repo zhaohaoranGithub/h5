@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="11px" viewBox="0 0 8 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>分组_slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.8317 7.2747 0.8317 7.2747 10.7117 0 10.7117"></polygon>
+        <polygon id="path-3" points="0.750292163 0.83 1.56395654 0.83 1.56395654 1.632 0.750292163 1.632"></polygon>
+        <polygon id="path-5" points="0.363082104 0.132 7.37792139 0.132 7.37792139 9.986 0.363082104 9.986"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-165.000000, -245.000000)">
+            <g id="分组" transform="translate(165.000000, 245.000000)">
+                <g>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M6.5277,0.8317 L1.0877,0.8317 C0.4867,0.8317 0.0007,1.3187 -0.0003,1.9197 L-0.0003,9.8977 C-0.0003,10.2237 0.1467,10.5137 0.3747,10.7117 L7.2747,1.1317 C7.0727,0.9397 6.8057,0.8317 6.5277,0.8317" id="Fill-1" fill="#F9DF46" mask="url(#mask-2)"></path>
+                </g>
+                <g>
+                    <g transform="translate(5.813965, 0.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-4"></g>
+                        <path d="" id="Fill-3" fill="#EA5514" mask="url(#mask-4)"></path>
+                    </g>
+                    <g transform="translate(0.000000, 1.000000)">
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <g id="Clip-6"></g>
+                        <path d="M7.35631282,0.695 C7.35437483,0.685 7.35049885,0.677 7.34759187,0.667 C7.33402595,0.605 7.31464607,0.543 7.29042122,0.485 L7.28654524,0.477 C7.22937458,0.348 7.14894807,0.231 7.04914167,0.133 L7.04914167,0.132 L0.363082104,9.713 C0.365020093,9.716 0.367927075,9.717 0.370834058,9.719 C0.414438794,9.758 0.460950513,9.794 0.510369214,9.825 L0.516183179,9.829 C0.566570874,9.861 0.618896558,9.887 0.673160229,9.91 C0.690602124,9.917 0.709013013,9.921 0.726454907,9.927 C0.768121655,9.942 0.810757397,9.956 0.854362134,9.965 C0.919284741,9.978 0.985176343,9.986 1.05397493,9.986 L6.32530305,9.986 C6.90766853,9.986 7.37859968,9.499 7.37956868,8.898 L7.37956868,0.92 C7.37956868,0.842 7.37084773,0.768 7.35631282,0.695" id="Fill-5" fill="#FFC408" mask="url(#mask-6)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,71 @@
+@mixin utils-user-select($value) {
+  -moz-user-select: $value;
+  -webkit-user-select: $value;
+  -ms-user-select: $value;
+}
+
+@mixin utils-clearfix {
+  $selector: &;
+
+  @at-root {
+    #{$selector}::before,
+    #{$selector}::after {
+      display: table;
+      content: "";
+    }
+    #{$selector}::after {
+      clear: both
+    }
+  }
+}
+
+@mixin utils-vertical-center {
+  $selector: &;
+
+  @at-root {
+    #{$selector}::after {
+      display: inline-block;
+      content: "";
+      height: 100%;
+      vertical-align: middle
+    }
+  }
+}
+
+@mixin utils-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@mixin utils-shadow-transition($shadowValue) {
+  box-shadow: $shadowValue;
+  transition: box-shadow .3s ease-out;
+}
+
+@mixin utils-transition-normal($value: all .3s ease-out) {
+  transition: $value;
+}
+
+@mixin utils-bg($backgroundValue, $backgroundSizeValue: contain) {
+  background: $backgroundValue;
+  background-size: $backgroundSizeValue;
+}
+
+@mixin pointType() {
+  @include when(goal) {
+    fill: $--color-dark;
+  }
+  @include when(penalty_kick) {
+    fill: #22b573;
+  }
+  @include when(oolong_ball) {
+    fill: #f58e23;
+  }
+  @include when(change_red) {
+    fill: $--color-danger;
+  }
+  @include when(lost_penalty_kick) {
+    fill: $--color-danger;
+  }
+}

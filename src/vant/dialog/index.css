@@ -1,0 +1,73 @@
+.van-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  font-size: 16px;
+  overflow: hidden;
+  transition: .3s;
+  border-radius: 8px;
+  background-color: #fff;
+  transform: translate3d(-50%, -50%, 0);
+  backface-visibility: hidden;
+}
+.van-dialog__closed {
+  text-align: right;
+  padding: 13px;
+}
+.van-dialog__header {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'PingFangSC-Medium';
+  font-weight: 500;
+  color: #4A4A4A;
+}
+.van-dialog__header--isolated {
+  padding: 25px 0;
+}
+.van-dialog__message {
+  padding: 25px;
+  font-size: 14px;
+  line-height: 1.5;
+  max-height: 60vh;
+  overflow-y: auto;
+  text-align: center;
+  -webkit-overflow-scrolling: touch;
+}
+.van-dialog__message--has-title {
+  padding-top: 12px;
+  color: #7d7e80;
+}
+.van-dialog__message--left {
+  text-align: left;
+}
+.van-dialog__message--right {
+  text-align: right;
+}
+.van-dialog__footer {
+  overflow: hidden;
+  user-select: none;
+}
+.van-dialog__footer--buttons {
+  display: flex;
+}
+.van-dialog__footer--buttons .van-button {
+  flex: 1;
+}
+.van-dialog .van-button {
+  border: 0;
+}
+.van-dialog__confirm,
+.van-dialog__confirm:active {
+  color: white;
+  border-radius: 0;
+}
+.van-dialog-bounce-enter {
+  opacity: 0;
+  transform: translate3d(-50%, -50%, 0) scale(0.7);
+}
+.van-dialog-bounce-leave-active {
+  opacity: 0;
+  transform: translate3d(-50%, -50%, 0) scale(0.9);
+}

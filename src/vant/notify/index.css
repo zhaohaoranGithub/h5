@@ -1,0 +1,15 @@
+.van-notify {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 13px 15px;
+  font-size: 14px;
+  line-height: 20px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.09);
+  font-family: 'PingFangSC-Regular';
+}
+.van-notify__error {
+  color: #E1243B;
+}

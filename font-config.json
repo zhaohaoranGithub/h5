@@ -1,0 +1,13 @@
+[
+  {
+    "font": "slicker-regular.ttf",
+    "dest": "./src/base/fonts",
+    "target": "slicker-regular",
+    "text": "ballBET",
+    "targets": [
+      "woff",
+      "eot",
+      "svg"
+    ]
+  }
+]

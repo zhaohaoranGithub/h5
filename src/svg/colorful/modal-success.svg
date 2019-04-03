@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_slice</title>
+    <desc>Created with Sketch.</desc>
+    <g id="汇总" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-160.000000, 0.000000)">
+            <g id="Icon" transform="translate(160.000000, 0.000000)">
+                <circle id="Oval-2-Copy-3" fill="#1E5ADC" opacity="0.100000001" cx="45" cy="45" r="45"></circle>
+                <circle id="Oval-2-Copy" fill="#1E5ADC" opacity="0.200000003" cx="45" cy="45" r="35"></circle>
+                <g id="Main-Icon" transform="translate(20.000000, 20.000000)">
+                    <circle id="Oval-2-Copy-2" fill="#1E5ADC" cx="25" cy="25" r="25"></circle>
+                    <polyline id="路径-2" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero" transform="translate(25.343352, 19.811616) rotate(-45.000000) translate(-25.343352, -19.811616) " points="15 14 15 25.6232326 35.686704 25.6232326"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

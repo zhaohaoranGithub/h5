@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>check_slice</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(0.000000, -1.000000)" fill="#1E5ADC" fill-rule="nonzero">
+            <path d="M10.6777946,2.87827934 L4.87483977,8.67781917 C4.44512396,9.10739361 3.74805717,9.10739361 3.31793423,8.67781917 L0.322408996,5.68362969 C-0.107469665,5.25405524 -0.107469665,4.5572684 0.322408996,4.12761258 C0.752369085,3.69787536 1.44938159,3.69787536 1.87915168,4.12744981 L4.09661771,6.3437935 L9.1208076,1.32218084 C9.55076769,0.892443632 10.2478345,0.89276917 10.6776317,1.32218084 C11.1074289,1.75183667 11.1074289,2.44837936 10.6777946,2.87827934 Z" id="Check"></path>
+        </g>
+    </g>
+</svg>

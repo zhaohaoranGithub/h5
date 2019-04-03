@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="23px" viewBox="0 0 26 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>group_8_slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.000115555556 0.0360697674 25.4320444 0.0360697674 25.4320444 14.693293 0.000115555556 14.693293"></polygon>
+        <polygon id="path-3" points="0 22.9641488 25.4320444 22.9641488 25.4320444 0.0467302326 0 0.0467302326"></polygon>
+    </defs>
+    <g id="充提转" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-12.000000, -14.000000)">
+            <g id="Group-8" transform="translate(12.000000, 14.000000)">
+                <g id="Group-3" transform="translate(0.000000, 0.010660)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M23.7352267,0.0358511628 L1.69704889,0.0358511628 C0.759893333,0.0358511628 0.000115555556,0.754513953 0.000115555556,1.64095581 L0.000115555556,10.9283744 C0.000115555556,13.0078512 1.78198222,14.693293 3.98042667,14.693293 L5.18162667,14.693293 L5.18162667,9.08553721 L3.24433778,9.08553721 L3.24433778,5.64360698 L22.1879378,5.64360698 L22.1879378,9.08553721 L20.2506489,9.08553721 L20.2506489,14.693293 L21.4518489,14.693293 C23.6502933,14.693293 25.43216,13.0078512 25.43216,10.9283744 L25.43216,1.64095581 C25.43216,0.754513953 24.6723822,0.0358511628 23.7352267,0.0358511628" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Clip-5"></g>
+                <polygon id="Fill-4" fill="#FFFFFF" mask="url(#mask-4)" points="6.76 20.1791256 18.6720444 20.1791256 18.6720444 18.5931488 6.76 18.5931488"></polygon>
+                <polygon id="Fill-6" fill="#FFFFFF" mask="url(#mask-4)" points="6.76 22.9641488 18.6720444 22.9641488 18.6720444 21.3781721 6.76 21.3781721"></polygon>
+                <polygon id="Fill-7" fill="#FFFFFF" mask="url(#mask-4)" points="6.76 17.2940907 18.6720444 17.2940907 18.6720444 7.29402093 6.76 7.29402093"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

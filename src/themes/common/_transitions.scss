@@ -1,0 +1,85 @@
+//slide-fade
+.slide-fade-enter-active {
+  transition: all .3s ease;
+}
+.slide-fade-leave-active {
+  transition: all .3s ease;
+}
+.slide-fade-enter, .slide-fade-leave-to {
+  transform: translateX(10px);
+  opacity: 0;
+}
+
+
+.slide-left-enter-active,
+.slide-left-leave-active {
+  animation-duration: .5s;
+  animation-fill-mode: both;
+}
+
+.slide-left-leave-active {
+  animation-delay: .2s;
+}
+
+.slide-in-enter, .slide-in-leave-to {
+  opacity: 0;
+}
+
+.slide-left-enter-active {
+  animation-name: slideInLeft;
+}
+.slide-left-leave-active {
+  animation-name: slideOutLeft;
+}
+
+.slide-left-2x-enter-active {
+  animation-name: slideInLeft2x;
+  animation-duration: .5s;
+  animation-fill-mode: both;
+  animation-delay: .2s;
+}
+.slide-left-2x-leave-active {
+  animation-name: slideOutLeft2x;
+  animation-duration: .5s;
+  animation-fill-mode: both;
+}
+
+.slide-right-enter-active {
+  animation-name: slideInRight;
+}
+
+.slide-right-leave-active {
+  animation-name: slideOutRight;
+}
+
+//breadcrumb
+.breadcrumb-enter-active,
+.breadcrumb-leave-active {
+  transition: all .5s;
+}
+
+.breadcrumb-enter,
+.breadcrumb-leave-active {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.breadcrumb-move {
+  transition: all .5s;
+}
+
+.breadcrumb-leave-active {
+  position: absolute;
+}
+
+
+.animated-200 {
+  animation-duration: $animation-200;
+}
+.animated-400 {
+  animation-duration: $animation-400;
+}
+
+.balance-animate {
+  animation: rotation 1s linear infinite;
+}

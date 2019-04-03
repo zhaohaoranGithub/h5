@@ -1,0 +1,176 @@
+$--nav-width: 100%;
+$--nav-height: 200px;
+$--nav-bg-color: #FFFFFF;
+$--nav-con-width: 1200px;
+.nav-sports{
+  width: $--nav-width;
+  height: $--nav-height;
+  position: absolute;
+  left: 0;
+  top: 70px;
+  z-index: 99;
+  background: $--nav-bg-color;
+  box-shadow: 0 12px 17px 0 rgba(0,0,0,0.19);
+  display: none;
+  .nav-sports-con{
+    width: $--nav-con-width;
+    height: $--nav-height;
+    margin: 0 auto;
+    padding: 30px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    .nav-sports-con__left{
+      width: 227px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-right: 1px solid #F0F1F2;
+      .nav-left__title{
+        font-family: PingFangSC-Semibold;
+        font-size: 26px;
+        line-height: 26px;
+        color: #2C343A;
+      }
+      .nav-left__proportion{
+        font-family: PingFangSC-Medium;
+        font-size: 18px;
+        line-height: 18px;
+        color: #7F8FA4;
+      }
+      .nav-left__num{
+        font-family: PingFangSC-Semibold;
+        font-size: 67px;
+        line-height: 67px;
+        color: #1E5ADC;
+        text-shadow: 0 5px 8px rgba(30,90,220,0.40);
+        span{
+          font-size: 26px;
+        }
+      }
+    }
+    .nav-sports-con__center{
+      width: 591px;
+      padding: 0 80px;
+      box-sizing: border-box;
+      overflow: hidden;
+      .nav-center__img{
+        float: left;
+        width: 150px;
+        height: 150px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .nav-center__content{
+        height: 100%;
+        float: left;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .nav-center-content__title{
+          font-family: PingFangSC-Semibold;
+          font-size: 26px;
+          line-height: 26px;
+          color: #2C343A;
+        }
+        .nav-center-content__proportion_{
+          font-family: PingFangSC-Medium;
+          font-size: 18px;
+          line-height: 24px;
+          color: #7F8FA4;
+        }
+        .nav-center-content__proportion{
+          font-family: PingFangSC-Medium;
+          font-size: 18px;
+          line-height: 24px;
+          margin-top: -30px;
+          color: #7F8FA4;
+        }
+        .nav-center-content__btn{
+          width: 129px;
+        }
+      }
+    }
+    .nav-sports-con__right{
+      width: 382px;
+      padding: 0 0 0 70px;
+      box-sizing: border-box;
+      border-left: 1px solid #F0F1F2;
+      overflow: hidden;
+      .nav-right__img{
+        float: left;
+        width: 80px;
+        height: 150px;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .nav-right__content{
+        height: 100%;
+        float: left;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .nav-right-content__title{
+          font-family: PingFangSC-Semibold;
+          font-size: 26px;
+          line-height: 26px;
+          color: #2C343A;
+        }
+        .nav-right-content__proportion{
+          font-family: PingFangSC-Medium;
+          font-size: 18px;
+          line-height: 18px;
+          color: #7F8FA4;
+        }
+        .nav-right-content__img{
+          width: 62px;
+          height: 62px;
+          background-color: #ffffff;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .nav-right-content__code{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+    .nav-active-item{
+      width: 200px;
+      height: 150px;
+      box-sizing: border-box;
+      border-left: 1px solid #F0F1F2;
+      .nav-active-item__img{
+        margin: 0 auto;
+        img{
+          display: block;
+          margin: 0 auto;
+        }
+      }
+      .nav-active-item__title{
+        font-family: PingFangSC-Semibold;
+        font-size: 14px;
+        color: #2C343A;
+        text-align: center;
+        margin-top: -10px;
+      }
+      &:hover{
+        .nav-active-item__title{
+          color: #1e5adc;
+        }
+      }
+      &:last-child{
+        border-right: 1px solid #F0F1F2;
+      }
+    }
+  }
+}

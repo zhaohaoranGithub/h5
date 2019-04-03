@@ -1,0 +1,37 @@
+.van-search {
+  display: flex;
+  padding: 7px 15px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.van-search .van-cell {
+  flex: 1;
+  padding: 3px 10px;
+  border-radius: 4px;
+  background: #F5F6F7;
+  font-size: 15px;
+  font-family: 'PingFangSC-Regular';
+}
+.van-search .van-cell__left-icon {
+  color: #969799;
+}
+.van-search--show-action {
+  padding-right: 0;
+}
+.van-search input::-webkit-search-decoration,
+.van-search input::-webkit-search-cancel-button,
+.van-search input::-webkit-search-results-button,
+.van-search input::-webkit-search-results-decoration {
+  display: none;
+}
+.van-search__action {
+  padding: 0 10px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #333333;
+  font-size: 15px;
+  font-family: 'PingFangSC-Regular';
+}
+.van-search__action:active {
+  background-color: #e8e8e8;
+}

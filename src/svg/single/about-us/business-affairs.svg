@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="23px" viewBox="0 0 32 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>group_8_slice</title>
+    <desc>Created with Sketch.</desc>
+    <g id="关于我们" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-27.000000, -119.000000)">
+            <g id="Group-8" transform="translate(27.000000, 119.000000)">
+                <polygon id="Stroke-1" stroke="#231F20" stroke-width="1.44" points="10.4888889 21.8166667 20.9777778 21.8166667 20.9777778 0 10.4888889 0"></polygon>
+                <path d="M31.4666667,21.8166667 L20.9777778,21.8166667 L20.9777778,4.5232 L30.8622222,4.5232 C31.1957333,4.5232 31.4666667,4.8026 31.4666667,5.14653333 L31.4666667,21.8166667 Z" id="Stroke-3" stroke="#231F20" stroke-width="1.44"></path>
+                <path d="M10.4888889,21.8166667 L0,21.8166667 L0,12.0919333 C0,11.748 0.270933333,11.4686 0.604444444,11.4686 L10.4888889,11.4686 L10.4888889,21.8166667 Z" id="Stroke-4" stroke="#231F20" stroke-width="1.44"></path>
+                <polygon id="Fill-5" fill="#231F20" points="21 22.4738667 23.5059556 22.4738667 23.5059556 5 21 5"></polygon>
+                <path d="M10.8317867,18.33194 L31.4668089,18.33194" id="Stroke-6" stroke="#231F20" stroke-width="1.44"></path>
+                <path d="M0,18.33194 L7.42471111,18.33194" id="Stroke-7" stroke="#231F20" stroke-width="1.44"></path>
+            </g>
+        </g>
+    </g>
+</svg>

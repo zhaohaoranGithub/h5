@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="16px" viewBox="0 0 13 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>notification_slice</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(0.000000, -1.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M6.50001904,17 C5.60221836,17 4.87500476,16.2656538 4.87504285,15.3589615 L8.12503333,15.3589615 C8.12503333,16.2656538 7.39781972,17 6.50001904,17 Z M11.3750238,12.0769231 L13,13.7179615 L13,14.5384615 L0,14.5384615 L0,13.7179615 L1.62501428,12.0769231 L1.62501428,7.97438462 C1.62501428,5.45130769 2.95345308,3.34669231 5.28126785,2.78873077 L5.28126785,2.23076923 C5.28126785,1.54973077 5.82563069,1 6.50001904,1 C7.1744074,1 7.71877023,1.54973077 7.71877023,2.23076923 L7.71877023,2.78869231 C10.046585,3.34665385 11.3750238,5.45126923 11.3750238,7.97434615 L11.3750238,12.0769231 Z" id="Notification"></path>
+        </g>
+    </g>
+</svg>

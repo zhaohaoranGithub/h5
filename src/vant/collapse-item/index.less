@@ -1,0 +1,70 @@
+@import '../style/var';
+.van-collapse-item {
+    padding-bottom: 15px;
+    &__title {
+        .van-cell__right-icon::before {
+            transform: rotate(90deg);
+            transition: @collapse-item-transition-duration;
+        }
+        &::after {
+            visibility: hidden;
+        }
+        &--expanded {
+            .van-cell__right-icon::before {
+                transform: rotate(-90deg);
+            }
+            &::after {
+                visibility: visible;
+            }
+        }
+        &--disabled {
+            &,
+            & .van-cell__right-icon {
+                color: @collapse-item-title-disabled-color;
+            }
+            &:active {
+                background-color: @white;
+            }
+        }
+    }
+    &__wrapper {
+        padding-bottom: 15px;
+        overflow: hidden;
+        will-change: height;
+        transition: height @collapse-item-transition-duration ease-in-out;
+    }
+    &__content {
+        color: @collapse-item-content-text-color; // padding: @collapse-item-content-padding;
+        font-weight: 400;
+        color: #999999;
+        font-size: 14px;
+        font-family: "PingFangSC-Regular";
+        // padding: 12px;
+        // box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        width: 96%;
+        margin: 0 auto;
+        position: relative;
+        overflow: unset !important;
+        margin-top: 10px;
+        background: #F5F6F7; // font-size: @collapse-item-content-font-size;
+        line-height: @collapse-item-content-line-height; // background-color: @collapse-item-content-background-color;
+        span.red {
+            color: #E54256;
+        }
+        // &:after {
+        //     content: '';
+        //     display: block;
+        //     position: absolute;
+        //     top: -20px;
+        //     left: 20px;
+        //     width: 0;
+        //     height: 0;
+        //     border-top: 10px solid transparent;
+        //     border-bottom: 10px solid #F5F6F7;
+        //     border-right: 15px solid transparent;
+        //     border-left: 15px solid transparent;
+        //     z-index: 111;
+        // }
+    }
+}

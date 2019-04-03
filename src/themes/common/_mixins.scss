@@ -1,0 +1,20 @@
+
+
+@mixin main-center($--width: $--app-width) {
+  width: $--width;
+  margin: 0 auto;
+}
+
+@mixin flex-center($flex-flow: column nowrap) {
+  display: flex;
+  flex-flow: $flex-flow;
+  align-items: center;
+}
+
+@mixin main-home-header(){
+  font-size:18px;
+  font-weight: 500;
+  color: #000000;
+  font-family:'PingFangSC-Medium';
+
+}

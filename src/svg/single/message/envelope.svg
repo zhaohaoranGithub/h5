@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="16px" viewBox="0 -2 23 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Envelope</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Personal-Center---Personal-Information" transform="translate(-229.000000, -328.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Main-Menu" transform="translate(120.000000, 119.000000)">
+                <g id="Top-Bar">
+                    <g id="Account-Information" transform="translate(0.000000, 175.000000)">
+                        <g id="User" transform="translate(30.000000, 0.000000)">
+                            <g id="Quick-Icons" transform="translate(42.000000, 29.000000)">
+                                <g id="E-mail" transform="translate(37.000000, 0.000000)">
+                                    <path d="M11.5,16.2 L14.3454286,13.7744 L22.4759286,20.5664 C22.1818571,20.8336 21.7842857,21 21.3456429,21 L1.65435714,21 C1.21407143,21 0.814857143,20.8336 0.519142857,20.5664 L8.65457143,13.7744 L11.5,16.2 Z M22.4808571,5.4336 L11.5,14.6 L0.522428571,5.4368 C0.818142857,5.1664 1.21571429,5 1.65435714,5 L21.3456429,5 C21.7875714,5 22.1851429,5.1648 22.4808571,5.4336 Z M0,6.4048 L7.93992857,13.1264 L0,19.6976 L0,6.4048 Z M15.0600714,13.1264 L23,6.4 L23,19.6976 L15.0600714,13.1264 Z" id="Envelope"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

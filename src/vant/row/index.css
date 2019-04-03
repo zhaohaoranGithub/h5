@@ -1,0 +1,32 @@
+.van-row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.van-row--flex {
+  display: flex;
+}
+.van-row--flex::after {
+  display: none;
+}
+.van-row.account-button {
+  margin-top: 34px;
+}
+.van-row--justify-center {
+  justify-content: center;
+}
+.van-row--justify-end {
+  justify-content: flex-end;
+}
+.van-row--justify-space-between {
+  justify-content: space-between;
+}
+.van-row--justify-space-around {
+  justify-content: space-around;
+}
+.van-row--align-center {
+  align-items: center;
+}
+.van-row--align-bottom {
+  align-items: bottom;
+}

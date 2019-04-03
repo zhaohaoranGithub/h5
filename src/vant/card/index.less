@@ -1,0 +1,103 @@
+@import '../style/var';
+@import '../style/mixins/ellipsis';
+
+.van-card {
+  color: @text-color;
+  display: flex;
+  font-size: 12px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 5px 15px;
+  background-color: @background-color-light;
+  flex-wrap: wrap;
+
+  &:not(:first-child) {
+    margin-top: 10px;
+  }
+
+  &--center,
+  &__thumb {
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__thumb {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+    flex: none;
+
+    img {
+      border: none;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  &__content {
+    position: relative;
+    height: 90px;
+    flex: 1;
+  }
+
+  &__title,
+  &__desc {
+    line-height: 17px;
+    word-break: break-all;
+  }
+
+  &__title {
+    max-height: 34px;
+    font-weight: bold;
+
+    .multi-ellipsis(2);
+  }
+
+  &__desc {
+    color: @gray-darker;
+    max-height: 17px;
+  }
+
+  &__bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 17px;
+  }
+
+  &__price {
+    display: inline-block;
+    color: @red;
+    font-weight: bold;
+  }
+
+  &__origin-price {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 10px;
+    color: @gray-darker;
+    text-decoration: line-through;
+  }
+
+  &__num {
+    float: right;
+  }
+
+  &__tag {
+    position: absolute;
+    top: 2px;
+    left: 0;
+  }
+
+  &__footer {
+    width: 100%;
+    text-align: right;
+    flex: none;
+
+    .van-button {
+      margin-left: 5px;
+    }
+  }
+}

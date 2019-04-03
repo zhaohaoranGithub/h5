@@ -1,0 +1,139 @@
+.van-button {
+  position: relative;
+  padding: 0;
+  display: inline-block;
+  height: 44px;
+  line-height: 42px;
+  border-radius: 2px;
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'PingFangSC-Medium';
+  /* mini图标默认宽度50px，文字不能超过4个 */
+}
+.van-button::before {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  border: inherit;
+  border-color: #333333;
+  background-color: #333333;
+  border-radius: inherit;
+  /* inherit parent's border radius */
+  transform: translate(-50%, -50%);
+}
+.van-button:active::before {
+  opacity: 0.15;
+}
+.van-button--unclickable::before {
+  display: none;
+}
+.van-button--default {
+  color: #4C4C4C;
+  background-color: #fff;
+  border: 1px solid #ebedf0;
+}
+.van-button--primary {
+  color: #fff;
+  background-color: #1E5ADC;
+  border: 1px solid #1E5ADC;
+  border-radius: 5px;
+}
+.van-button--shadow {
+  box-shadow: 0 4px 10px 0 rgba(30, 90, 220, 0.5);
+}
+.van-button--danger {
+  color: #fff;
+  background-color: #f44;
+  border: 1px solid #f44;
+}
+.van-button--warning {
+  color: #fff;
+  background-color: #ff976a;
+  border: 1px solid #ff976a;
+}
+.van-button--plain {
+  background-color: #fff;
+}
+.van-button--plain.van-button--primary {
+  color: #1E5ADC;
+}
+.van-button--plain.van-button--danger {
+  color: #f44;
+}
+.van-button--plain.van-button--warning {
+  color: #ff976a;
+}
+.van-button--large {
+  width: 100%;
+  height: 50px;
+  line-height: 48px;
+}
+.van-button--normal {
+  padding: 0 13px;
+  font-size: 18px;
+}
+.van-button--medium {
+  height: 40px;
+  font-size: 14px;
+}
+.van-button--small {
+  height: 30px;
+  padding: 0 8px;
+  min-width: 60px;
+  font-size: 12px;
+  line-height: 28px;
+}
+.van-button--loading .van-loading {
+  display: inline-block;
+}
+.van-button--info {
+  background: #afb5cb;
+  color: white;
+  border-radius: 5px;
+}
+.van-button--mini {
+  display: inline-block;
+  width: 50px;
+  height: 22px;
+  line-height: 20px;
+  font-size: 10px;
+}
+.van-button--mini + .van-button--mini {
+  margin-left: 5px;
+}
+.van-button--block {
+  width: 100%;
+  display: block;
+}
+.van-button--bottom-action {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  border: 0;
+  border-radius: 0;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff976a;
+}
+.van-button--bottom-action.van-button--primary {
+  background-color: #f44;
+}
+.van-button--disabled {
+  background-color: #f5f6f7;
+  box-shadow: 0px 5px 8px 0px rgba(71, 71, 71, 0.1);
+  border: 1px solid #f0f0f0;
+  color: #dedede;
+}
+.van-button--round {
+  border-radius: 10em;
+}
+.van-button--square {
+  border-radius: 0;
+}

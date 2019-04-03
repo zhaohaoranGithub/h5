@@ -1,0 +1,98 @@
+.van-field .van-cell__title {
+  max-width: 90px;
+}
+.van-field__body {
+  display: flex;
+  align-items: center;
+}
+.van-field__control {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  resize: none;
+  display: block;
+  color: #333333;
+  box-sizing: border-box;
+  background-color: transparent;
+  font-family: 'PingFangSC-Regular';
+  font-size: 18px;
+  /* for ios wechat */
+}
+.van-field__control::placeholder {
+  color: #969799;
+  font-size: 14px;
+}
+.van-field__control:disabled {
+  opacity: 1;
+  color: #969799;
+  background-color: transparent;
+}
+.van-field__control--center {
+  text-align: center;
+}
+.van-field__control--right {
+  text-align: right;
+}
+.van-field__control[type="date"],
+.van-field__control[type="time"] {
+  min-height: 24px;
+}
+.van-field__clear,
+.van-field__icon,
+.van-field__button {
+  flex-shrink: 0;
+}
+.van-field__clear,
+.van-field__icon {
+  padding: 0 10px;
+  line-height: inherit;
+  margin-right: -10px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.van-field__clear span,
+.van-field__icon span {
+  font-size: 14px;
+  font-family: 'PingFangSC-Regular';
+  color: #4C4C4C;
+}
+.van-field__clear span.active,
+.van-field__icon span.active {
+  color: #1E5ADC;
+}
+.van-field__clear {
+  color: #B4BDCA;
+  font-size: 14px;
+}
+.van-field__icon .van-icon {
+  display: block;
+  font-size: 16px;
+  color: #969799;
+  line-height: inherit;
+}
+.van-field__button {
+  padding-left: 10px;
+}
+.van-field__error-message {
+  color: #f44;
+  font-size: 12px;
+  text-align: left;
+}
+.van-field--disabled .van-field__control {
+  color: #969799;
+}
+.van-field--error .van-field__control,
+.van-field--error .van-field__control::placeholder {
+  color: #f44;
+}
+.van-field--min-height .van-field__control {
+  min-height: 60px;
+}
+.van-field--label-center .van-cell__title {
+  text-align: center;
+}
+.van-field--label-right .van-cell__title {
+  text-align: right;
+}

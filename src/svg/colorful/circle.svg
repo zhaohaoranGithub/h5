@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="alert-circle" width="234" height="234" xmlns="http://www.w3.org/2000/svg">
+	<!-- <g>
+		<circle cx="117" cy="117" r="108" fill="transparent" stroke="#1E5ADC" stroke-width="17"></circle>
+	    <circle cx="117" cy="117" r="50" fill="#1E5ADC"></circle>
+	</g>
+    <path d="M117 9 A108 108 0 0 1 117 225" stroke="#D9112F" stroke-width="17" fill="none"></path>
+    <path d="M117 67 A50 50 0 0 1 117 167 Z"  fill="#D9112F"></path> -->
+
+    <circle cx="60" cy="80" r="54" fill="none" stroke="#666" stroke-width="17" />
+    <circle cx="60" cy="80" r="54" fill="none" stroke="#FC4D04" stroke-width="17" stroke-dasharray="339" stroke-dashoffset="20" stroke-linecap="round" />
+</svg>
