@@ -1,0 +1,83 @@
+before_script:
+   - which node && node --version
+   - which npm && npm --version
+
+stages:
+  - build
+  - deploy
+
+prepare:
+  tags:
+    - build
+  stage: build
+  only:
+    - build/ref
+  cache:
+    key: "release_ref"
+    paths:
+    - node_modules/
+  script:
+    - echo "prepare env"
+    - npm i --cache
+
+build-release:
+  tags:
+    - build
+  stage: build
+  only:
+    - dev
+    - release
+  cache:
+    key: "release_ref"
+    policy: pull
+    paths:
+    - node_modules/
+  script:
+    - echo "prepare to build"
+    - npm run release
+  artifacts:
+    name: "$CI_JOB_NAME"
+    when: on_success
+    paths:
+      - www/main/
+    expire_in: 10 min
+
+#build-release-production:
+#  tags:
+#    - build
+#  stage: build
+#  only:
+#    - release
+#  cache:
+#      key: "release_ref"
+#      policy: pull
+#      paths:
+#      - node_modules/
+#  script:
+#    - echo "prepare to build"
+#    - npm run release:production
+#  artifacts:
+#      name: "$CI_JOB_NAME"
+#      when: on_success
+#      paths:
+#        - www/main/
+#      expire_in: 10 min
+
+# 部署测试服务器
+deploy-test:
+  tags:
+    - deploy
+  stage: deploy
+  dependencies:
+      - build-release
+  only:
+    - dev
+    - release
+  script:
+    - echo "prepare to move release to test"
+    - cp -r ./www/main/* /www/mobile/
+#    - cp -r  ./www/main/* /www/dev_2/mobile/
+#    2m.aibet.com
+#    - sshpass -p "Global@123" scp -r www/forehead_wx_v3.zip root@10.0.5.201:/data/html
+#    - echo "prepare to decompress"
+#    - sshpass -p "Global@123" ssh root@10.0.5.201 "unzip -o /data/html/forehead_wx_v3.zip -d /data/html/www/forehead"

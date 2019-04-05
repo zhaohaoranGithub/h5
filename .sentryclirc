@@ -1,0 +1,7 @@
+[defaults]
+project=sports-h5
+url=https://sentry.aaawhu.com/
+org=sentry
+
+[auth]
+token=7cfa3502a3f6477782001fcab21179762277a475f60f47a8af492b8994d1414e
