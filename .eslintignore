@@ -1,0 +1,11 @@
+/www
+/src/vendor
+/test/unit/coverage/
+/src/vant/
+/src/icons/
+/src/mock/
+/less
+
+**/gulpfile.js
+
+**/webpack*.js
