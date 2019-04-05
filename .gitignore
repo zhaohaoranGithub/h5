@@ -1,0 +1,16 @@
+node_modules
+.sass-cache
+www
+stats.json
+.idea
+dist
+error
+webpack-assets.json
+.project
+docs/_book/
+test/unit/coverage
+test/e2e/reports
+.test
+selenium-debug.log
+.DS_Store
+*/.DS_Store
